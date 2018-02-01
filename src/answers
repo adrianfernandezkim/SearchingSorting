@@ -1,0 +1,9 @@
+Swap function fix:
+
+  public void swap(int first, int second) {
+        // code an example to fix this!
+        cards a = cards[first];
+        cards b = cards[second];
+        cards[first] = b;
+        cards[second] = a;
+  }
